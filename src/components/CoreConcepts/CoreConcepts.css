@@ -1,0 +1,52 @@
+
+    
+  .core-concept {
+    background-color: #bbb;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 25px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .core-concept img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .core-concept h3 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-bottom: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+  
+  }
+  
+  .core-concept p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    line-height: 1.8;
+    font-weight: 400;
+  }
+  
+  .core-concept:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .core-concept {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
